@@ -16,10 +16,10 @@ class Vehicle{
 
 }
 class Car extends Vehicle{
-         int d;
+         int bikeType;
          public Car(String Brand,String model,int prize,int door){
             super(Brand,model,prize);
-            d=door;
+            bikeType=door;
          }
          public void dis(){
             super.dis();
