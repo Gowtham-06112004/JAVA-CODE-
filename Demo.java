@@ -23,7 +23,7 @@ class Car extends Vehicle{
          }
          public void dis(){
             super.dis();
-            System.out.println(d);
+            System.out.println(bikeType);
          }
 
 }
