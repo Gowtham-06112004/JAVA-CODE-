@@ -28,14 +28,14 @@ class Car extends Vehicle{
 
 }
 class Bike extends Vehicle{
-         String d;
+         String doors;
          public Bike(String Brand,String model,int prize,String door){
             super(Brand,model,prize);
-            d=door;
+            doors=door;
          }
          public void dis(){
             super.dis();
-            System.out.println(d);
+            System.out.println(doors);
          }
 
 }
